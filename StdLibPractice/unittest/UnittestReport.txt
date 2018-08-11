@@ -1,0 +1,32 @@
+test_isupper (__main__.TestStringMethods) ... FAIL
+test_split (__main__.TestStringMethods) ... ok
+test_upper (__main__.TestStringMethods) ... ok
+
+======================================================================
+FAIL: test_isupper (__main__.TestStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "basic_demo.py", line 22, in test_isupper
+    self.assertTrue('Foo'.isupper())
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+test_isupper (__main__.TestStringMethods) ... FAIL
+test_split (__main__.TestStringMethods) ... ok
+test_upper (__main__.TestStringMethods) ... ok
+
+======================================================================
+FAIL: test_isupper (__main__.TestStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "basic_demo.py", line 24, in test_isupper
+    self.assertTrue('Foo'.isupper())
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s
+
+FAILED (failures=1)
